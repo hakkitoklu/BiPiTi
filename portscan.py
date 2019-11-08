@@ -1,6 +1,15 @@
-import nmap, itertools
-import csv
-import pandas as pd
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#
+# @name: Bipiti - Basic Information Gathering and Security Scanner
+# @author:   hakkitoklu
+
+try:
+    import nmap, itertools
+    import csv
+    import pandas as pd
+except ImportError:
+    print("Import Error! Please install requirements")
 
 
 def portscanner(ip):

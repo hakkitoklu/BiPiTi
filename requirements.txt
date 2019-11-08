@@ -3,4 +3,3 @@ fake-useragent==0.1.11
 pandas==0.25.2
 python-nmap==0.6.1
 python-whois==0.7.2
-requests==2.22.0

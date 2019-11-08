@@ -19,20 +19,22 @@
 
 """This app is coded for educational purpose. Please use for good! Otherwise it is not my responsibility."""
 
-
-from bs4 import BeautifulSoup
-import re
-import requests
-import whois
-import ssl
-import socket
-import time
-from fake_useragent import UserAgent
-import urllib.request
-from urllib.error import HTTPError, URLError
-import portscan
-from usage import *
-import argparse
+try:
+    from bs4 import BeautifulSoup
+    import re
+    import requests
+    import whois
+    import ssl
+    import socket
+    import time
+    from fake_useragent import UserAgent
+    import urllib.request
+    from urllib.error import HTTPError, URLError
+    import portscan
+    from usage import *
+    import argparse
+except ImportError:
+    print("Import Error! Please install requirements")
 
 u=usage()
 
