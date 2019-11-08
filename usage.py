@@ -28,14 +28,12 @@ Basic Information Gathering and Security Scanner
     def basic(self, _exit_=True):
         self.banner()
         print("Usage :\n")
-        print("    portscanner   |  Port Scan                   (e.g: --action portscanner --url 192.168.1.1)")
-        print("    whois         |  Whois Query                 (e.g: --action whois --url http://www.site.com)")
-        print("    mail          |  Mail Parse                  (e.g: --action mail --url http://www.site.com)")
-        print("    links         |  Link Parse Query            (e.g: --action links --url http://www.site.com)")
-        print("    certificate   |  SSL Certificate Information (e.g: --action certificate --url http://www.site.com)")
-        print(
-            "    sql           |  SQL Injection               (e.g: --action sql --url http://www.site.com/abc/?id=2)")
-        print(
-            "    xss           |  XSS Scan                    (e.g: --action xss --url https://www.site.com/abc/abc?query=1)")
+        print("    portscanner   |  Port Scan                   (e.g: -a / --action portscanner --url 192.168.1.1)")
+        print("    whois         |  Whois Query                 (e.g: -a / --action whois --url http://www.site.com)")
+        print("    maildump      |  Mail Parse                  (e.g: -a / --action mail --url http://www.site.com)")
+        print("    linkcrawl     |  Link Parse Query            (e.g: -a / --action links --url http://www.site.com)")
+        print("    certificate   |  SSL Certificate Information (e.g: -a / --action certificate --url http://www.site.com)")
+        print("    sql           |  SQL Injection               (e.g: -a / --action sql --url http://www.site.com/abc/?id=2)")
+        print("    xss           |  XSS Scan                    (e.g: -a / --action xss --url https://www.site.com/abc/abc?query=1)")
         print("\n\n\n")
 
