@@ -21,7 +21,7 @@ It is coded for self development and educational purpose. Please do not consider
 <br/><br/>
 **Installation**
 ```
-$ git clone https://github.com/hakkitoklu/bipiti.git
+$ git clone https://github.com/hakkitoklu/BiPiTi.git
 $ cd bipiti
 $ pip3 install -r requirements.txt 
 ```
