@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# @name: Bipiti - Basic Information Gathering and Security Scanner
+# @name: Bipiti - Basic Information Gathering and Security Tool
 # @author:   hakkitoklu
 
 try:
@@ -34,7 +34,8 @@ def portscanner(ip):
             v_list.append((results['scan'][scans]['tcp'][ports]['version']).replace('-', ' ').split())
             for t in results['scan'][scans]['tcp'][ports]:
                 script_list = []
-                try:  # script içeriği olmayan bloklardan gelecek hataları yok saymak için
+                # script içeriği olmayan bloklardan gelecek hataları yok saymak için
+                try:
                     for scripts in results['scan'][scans]['tcp'][ports]['script']:
                         script_list.append(scripts + ":" + "    " + results['scan'][scans]['tcp'][ports]['script'][
                             scripts])  # script başlıkları
@@ -96,10 +97,10 @@ def print_output(results):
         for ports in results['scan'][scans]['tcp']:
             for t in results['scan'][scans]['tcp'][ports]:
                 script_list = []
-                try:  # script içeriği olmayan bloklardan gelecek hataları yok saymak için
+                try:
                     for scripts in results['scan'][scans]['tcp'][ports]['script']:
                         script_list.append(scripts + ":" + "    " + results['scan'][scans]['tcp'][ports]['script'][
-                            scripts])  # script başlıkları
+                            scripts])
                 except:
                     pass
 

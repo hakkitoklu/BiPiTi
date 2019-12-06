@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-    BiPiTi - Basic Information Gathering and Security Scanner
+    BiPiTi - Basic Information Gathering and Security Tool
     Copyright (C) 2019 HAKKI TOKLU
 
     This program is free software: you can redistribute it and/or modify
