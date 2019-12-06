@@ -22,7 +22,7 @@ It is coded for self development and educational purpose. Please do not consider
 **Installation**
 ```
 $ git clone https://github.com/hakkitoklu/BiPiTi.git
-$ cd bipiti
+$ cd BiPiTi
 $ pip3 install -r requirements.txt 
 ```
 
